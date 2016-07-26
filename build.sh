@@ -5,5 +5,5 @@ SCRIPTPATH=`dirname $SCRIPT`
 OLDPWD=`pwd`
 
 cd $SCRIPTPATH
-mvn assembly:single
+mvn clean compile assembly:single
 cd $OLDPWD
