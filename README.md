@@ -16,6 +16,7 @@ Writes the translated file to **pretty-fileToReplaceAddresses**.
     java -jar ./target/elf-mapper-0.0.2-SNAPSHOT-jar-with-dependencies.jar elfDump.txt fileToReplaceAddresses.txt
 
 ### Example
+A .dot file snippet with replaced addresses.
 
 | input                                    | mapped output                                                             |
 |------------------------------------------|----------------------------------------------------------------------------
@@ -27,4 +28,4 @@ Writes the translated file to **pretty-fileToReplaceAddresses**.
 | ```  "0x0356 - \n0x0366" [shape=hexagon]```  |```  "constructcommunicationpro - \nconstructcommunicationpro" [shape=hexagon]``` |
 | ```  "0x0606 - \n0x062C" [shape=ellipse]```  |```  "manchesterdecodebuffer - \n0x062c" [shape=ellipse]``` |
 | ```  "0x0922 - \n0x0928" [shape=ellipse]```  |```  "receivesouth - \n0x0928" [shape=ellipse]``` |
-| ```  }```  |```  }``` |
+| ```}```  |```}``` |
