@@ -4,7 +4,7 @@
 
 	<groupId>at.tugraz.iti.programmablematter</groupId>
 	<artifactId>elf-mapper</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>elf-mapper</name>
@@ -22,7 +22,7 @@
       <configuration>
         <archive>
           <manifest>
-            <mainClass>at.tugraz.iti.programmablematter.elfmapper.ElfAddresToNameTranslator</mainClass>
+            <mainClass>at.tugraz.iti.programmablematter.elfmapper.ElfAddressToNameTranslator</mainClass>
           </manifest>
         </archive>
         <descriptorRefs>
@@ -38,7 +38,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>at.tugraz.iti.programmablematter.elfmapper.ElfAddresToNameTranslator</mainClass>
+              <mainClass>at.tugraz.iti.programmablematter.elfmapper.ElfAddressToNameTranslator</mainClass>
             </manifest>
           </archive>
         </configuration>

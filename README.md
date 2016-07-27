@@ -1,6 +1,6 @@
-elf mappper
+elf mapper
 ===========
-Replaces address occurences matching **0x[0-9a-zA-Z]{4}**  by labels as shown by **readelf -a**.
+Replaces address occurrences matching **0x[0-9a-zA-Z]{4}**  by labels as shown by **readelf -a**.
 
 ## Usage
     java -jar <mapper> <labelsFile> <fileToReplaceAddresses>
